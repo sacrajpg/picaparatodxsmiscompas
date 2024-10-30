@@ -1,5 +1,3 @@
-/* Archivo CSS externo para Pica para Todxs Mis Compas */
-
 body.custom-bg {
     background: linear-gradient(180deg, #ff69b4, #db7093), url('../img/fondopica.jpg') no-repeat center center fixed;
     background-blend-mode: overlay;
