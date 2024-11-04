@@ -31,8 +31,86 @@ nav {
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
-p.fechas {
+.fechas {
     text-align: left;
 }
 
+.imgmaschica {
+    width: 30%;
+}
 
+.discomaschico {
+    width: 40%;
+}
+
+.integrantes-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.integrante {
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.integrante-img {
+    max-width: 200px;  
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.agranda-img {
+    max-width: 300px; 
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.integrante h3, .integrante p {
+    margin: 0;
+}
+
+.ajustaalturaimg {
+    max-height: 400px; /* Establece la altura máxima para las imágenes */
+    width: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 0.5rem; /* Añade un borde redondeado a las imágenes */
+    display: block;
+    margin: 0 auto; /* Centra la imagen dentro de su contenedor */
+}
+
+
+.ajusta-contenedor {
+    margin-right: 1rem; /* Añade un margen derecho para simular espacio entre las imágenes */
+}
+
+.ajusta-bg {
+    background-color: #bb308a; /* Color de fondo para el contenedor principal */
+}
+
+.footer-button {
+    background-color: rgba(201, 163, 40, 0.589);
+    color: #000; /* O el color que prefieras para el texto */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-button:hover {
+    background-color: #e6b620; /* Color más oscuro para el hover */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
