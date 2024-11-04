@@ -114,3 +114,14 @@ nav {
     justify-content: center;
     align-items: center;
 }
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+form {
+    font-size: 1.25em;
+    text-align: center;
+}
