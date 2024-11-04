@@ -77,25 +77,25 @@ nav {
 }
 
 .ajustaalturaimg {
-    max-height: 400px; /* Establece la altura máxima para las imágenes */
-    width: auto; /* Mantiene la proporción de la imagen */
-    border-radius: 0.5rem; /* Añade un borde redondeado a las imágenes */
+    max-height: 400px; 
+    width: auto; 
+    border-radius: 0.5rem; 
     display: block;
-    margin: 0 auto; /* Centra la imagen dentro de su contenedor */
+    margin: 0 auto; 
 }
 
 
 .ajusta-contenedor {
-    margin-right: 1rem; /* Añade un margen derecho para simular espacio entre las imágenes */
+    margin-right: 1rem; 
 }
 
 .ajusta-bg {
-    background-color: #bb308a; /* Color de fondo para el contenedor principal */
+    background-color: #bb308a; 
 }
 
 .footer-button {
     background-color: rgba(201, 163, 40, 0.589);
-    color: #000; /* O el color que prefieras para el texto */
+    color: #000; 
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -106,7 +106,7 @@ nav {
 }
 
 .footer-button:hover {
-    background-color: #e6b620; /* Color más oscuro para el hover */
+    background-color: #e6b620; 
 }
 
 .button-container {
