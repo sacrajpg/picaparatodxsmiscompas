@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+</head>
+<body class="custom-bg min-h-screen">
+    <header class="flex flex-col items-center py-10">
+        <img src="../img/titulo.png" alt="Pica para Todxs Mis Compas">
+        <nav class="flex space-x-4 mt-5">
+            <a href="../index.html" class="nav-button">INICIO</a>
+            <a href="../acercadepica/index.html" class="nav-button">ACERCA DE PICA</a>
+            <a href="../presentaciones/index.html" class="nav-button">PRESENTACIONES</a>
+            <a href="../merch/index.html" class="nav-button">MERCH</a>
+            <a href="index.html" class="nav-button">FOTOS</a>
+        </nav>
+    </header>
+    <main class="grid grid-cols-1 md:grid-cols-3 gap-4 px-4 py-10">
+        <div class="gallery-preview cursor-pointer flex items-center justify-center w-full h-64 rounded-lg" style="background-color: #bb308a;" data-gallery="gallery1">
+            <p class="text-white text-lg font-bold">Marcha Nacional contra el Gatillo Fácil</p>
+        </div>
+        <div id="gallery1" class="gallery grid grid-cols-1 md:grid-cols-2 gap-4" style="display: none;">
+            <a href="img/marchanacgatillofacil/marchanacgatillofacil1.jpg" class="gallery-item">
+                <img src="img/marchanacgatillofacil/marchanacgatillofacil1.jpg" alt="Marcha NAC Gatillo Fácil 1" class="w-full rounded-lg">
+            </a>
+            <a href="img/marchanacgatillofacil/marchanacgatillofacil2.jpg" class="gallery-item">
+                <img src="img/marchanacgatillofacil/marchanacgatillofacil2.jpg" alt="Marcha NAC Gatillo Fácil 2" class="w-full rounded-lg">
+            </a>
+            <button class="back-button mt-4 bg-gray-800 text-white py-2 px-4 rounded" data-gallery="gallery1">Ocultar</button>
+        </div>
+        
+        <div class="gallery-preview cursor-pointer flex items-center justify-center w-full h-64 rounded-lg" style="background-color: #bb308a;" data-gallery="gallery2">
+            <p class="text-white text-lg font-bold">El Tanque Cultural</p>
+        </div>
+        <div id="gallery2" class="gallery grid grid-cols-1 md:grid-cols-2 gap-4" style="display: none;">
+            <a href="img/tanquecultural/IMG-20241028-WA0035.jpg" class="gallery-item">
+                <img src="img/tanquecultural/IMG-20241028-WA0035.jpg" alt="Tanque Cultural 1" class="w-full rounded-lg">
+            </a>
+            <a href="img/tanquecultural/IMG-20241028-WA0036.jpg" class="gallery-item">
+                <img src="img/tanquecultural/IMG-20241028-WA0036.jpg" alt="Tanque Cultural 2" class="w-full rounded-lg">
+            </a>
+            <a href="img/tanquecultural/IMG-20241028-WA0037.jpg" class="gallery-item">
+                <img src="img/tanquecultural/IMG-20241028-WA0037.jpg" alt="Tanque Cultural 3" class="w-full rounded-lg">
+            </a>
+            <a href="img/tanquecultural/IMG-20241028-WA0038.jpg" class="gallery-item">
+                <img src="img/tanquecultural/IMG-20241028-WA0038.jpg" alt="Tanque Cultural 4" class="w-full rounded-lg">
+            </a>
+            <a href="img/tanquecultural/IMG-20241028-WA0039.jpg" class="gallery-item">
+                <img src="img/tanquecultural/IMG-20241028-WA0039.jpg" alt="Tanque Cultural 5" class="w-full rounded-lg">
+            </a>
+            <a href="img/tanquecultural/IMG-20241028-WA0040.jpg" class="gallery-item">
+                <img src="img/tanquecultural/IMG-20241028-WA0040.jpg" alt="Tanque Cultural 6" class="w-full rounded-lg">
+            </a>
+            <a href="img/tanquecultural/IMG-20241028-WA0041.jpg" class="gallery-item">
+                <img src="img/tanquecultural/IMG-20241028-WA0041.jpg" alt="Tanque Cultural 7" class="w-full rounded-lg">
+            </a>
+            <a href="img/tanquecultural/IMG-20241028-WA0042.jpg" class="gallery-item">
+                <img src="img/tanquecultural/IMG-20241028-WA0042.jpg" alt="Tanque Cultural 8" class="w-full rounded-lg">
+            </a>
+            <a href="img/tanquecultural/IMG-20241028-WA0044.jpg" class="gallery-item">
+                <img src="img/tanquecultural/IMG-20241028-WA0044.jpg" alt="Tanque Cultural 10" class="w-full rounded-lg">
+            </a>
+            <button class="back-button mt-4 bg-gray-800 text-white py-2 px-4 rounded" data-gallery="gallery2">Ocultar</button>
+        </div>
+
+        <div class="gallery-preview cursor-pointer flex items-center justify-center w-full h-64 rounded-lg" style="background-color: #bb308a;" data-gallery="gallery3">
+            <p class="text-white text-lg font-bold">Transformador de Haedo</p>
+        </div>
+        <div id="gallery3" class="gallery grid grid-cols-1 md:grid-cols-2 gap-4" style="display: none;">
+            <a href="img/transfohaedo/transfohaedo3.jpg" class="gallery-item">
+                <img src="img/transfohaedo/transfohaedo3.jpg" alt="Transformador de Haedo 3" class="w-full rounded-lg">
+            </a>
+            <button class="back-button mt-4 bg-gray-800 text-white py-2 px-4 rounded" data-gallery="gallery3">Ocultar</button>
+        </div>
+       
+        <div class="gallery-preview cursor-pointer flex items-center justify-center w-full h-64 rounded-lg" style="background-color: #bb308a;" data-gallery="gallery4">
+            <p class="text-white text-lg font-bold">Locro Matriotico en La Retaguardia</p>
+        </div>
+        <div id="gallery4" class="gallery grid grid-cols-1 md:grid-cols-2 gap-4" style="display: none;">
+            <a href="img/lrlocro/lrlocro.jpg" class="gallery-item">
+                <img src="img/lrlocro/lrlocro.jpg" alt="Locro Matriotico en La Retaguardia" class="w-full rounded-lg">
+            </a>
+            <button class="back-button mt-4 bg-gray-800 text-white py-2 px-4 rounded" data-gallery="gallery4">Ocultar</button>
+        </div>
+
+        <div class="gallery-preview cursor-pointer flex items-center justify-center w-full h-64 rounded-lg" style="background-color: #bb308a;" data-gallery="gallery5">
+            <p class="text-white text-lg font-bold">Festival por la Memoria en Laferrere</p>
+        </div>
+        <div id="gallery5" class="gallery grid grid-cols-1 md:grid-cols-2 gap-4" style="display: none;">
+            <a href="img/lafememoria/lafememoria.jpg" class="gallery-item">
+                <img src="img/lafememoria/lafememoria.jpg" alt="Festival por la Memoria en Laferrere" class="w-full rounded-lg">
+            </a>
+            <button class="back-button mt-4 bg-gray-800 text-white py-2 px-4 rounded" data-gallery="gallery5">Ocultar</button>
+        </div>
+
+        <div class="gallery-preview cursor-pointer flex items-center justify-center w-full h-64 rounded-lg" style="background-color: #bb308a;" data-gallery="gallery6">
+            <p class="text-white text-lg font-bold">Espacio Cultural Fonrouge</p>
+        </div>
+        <div id="gallery6" class="gallery grid grid-cols-1 md:grid-cols-2 gap-4" style="display: none;">
+            <a href="img/fonrouge/fonrouge1.jpg" class="gallery-item">
+                <img src="img/fonrouge/fonrouge1.jpg" alt="Espacio Cultural Fonrouge 1" class="w-full rounded-lg">
+            </a>
+           
+            <a href="img/fonrouge/fonrouge5.jpg" class="gallery-item">
+                <img src="img/fonrouge/fonrouge5.jpg" alt="Espacio Cultural Fonrouge 5" class="w-full rounded-lg">
+            </a>
+            <a href="img/fonrouge/fonrouge6.jpg" class="gallery-item">
+                <img src="img/fonrouge/fonrouge6.jpg" alt="Espacio Cultural Fonrouge 6" class="w-full rounded-lg">
+            </a>
+            <button class="back-button mt-4 bg-gray-800 text-white py-2 px-4 rounded" data-gallery="gallery6">Ocultar</button>
+        </div>
+
+        <div class="gallery-preview cursor-pointer flex items-center justify-center w-full h-64 rounded-lg" style="background-color: #bb308a;" data-gallery="gallery7">
+            <p class="text-white text-lg font-bold">Festival por las Niñeces en Gonzalez Catan</p>
+        </div>
+        <div id="gallery7" class="gallery grid grid-cols-1 md:grid-cols-2 gap-4" style="display: none;">
+            <a href="img/catannineces/catannineces1.jpg" class="gallery-item">
+                <img src="img/catannineces/catannineces1.jpg" alt="Festival por las Niñeces en Gonzalez Catan 1" class="w-full rounded-lg">
+            </a>
+            <a href="img/catannineces/catannineces2.jpg" class="gallery-item">
+                <img src="img/catannineces/catannineces2.jpg" alt="Festival por las Niñeces en Gonzalez Catan 2" class="w-full rounded-lg">
+            </a>
+            <button class="back-button mt-4 bg-gray-800 text-white py-2 px-4 rounded" data-gallery="gallery7">Ocultar</button>
+        </div>
+    </main>
+    <script src="../js/gallery.js"></script>
+</body>
+</html>
